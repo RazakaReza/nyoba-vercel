@@ -148,6 +148,15 @@ const mapVendorC = (data) => {
   });
 };
 
+app.get("/", (req, res) => {
+  res.json({
+    message: "API Banyuwangi Marketplace berjalan",
+    endpoints: {
+      getData: "/data",
+    },
+  });
+});
+
 const produkNormalisasiA = mapVendorA(dataVendorA);
 const produkNormalisasiB = mapVendorB(dataVendorB);
 const produkNormalisasiC = mapVendorC(dataVendorC);
