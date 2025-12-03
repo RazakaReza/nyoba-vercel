@@ -7,10 +7,10 @@
   "name": "banyuwangi_json",
   "version": "1.0.0",
   "description": "",
-  "main": "data.js",
+  "main": "./api/data.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node data.js"
+    "start": "node ./api/data.js"
   },
   "repository": {
     "type": "git",
